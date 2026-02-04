@@ -4,6 +4,7 @@ python-dotenv  # For .env file support
 torch
 transformers
 peft
+gunicorn
 tokenizers
 sentencepiece  # Keep if your tokenizer uses SentencePiece (your repo contains `tokenizer.model`)
 safetensors   # Keep if model weights are stored as .safetensors (adapter/merged model files)
